@@ -71,7 +71,7 @@ query Post ($id: ID!) {
 </page-query>
 
 
-<style scoped>
+<style>
 .post__header{
   margin: 40px 0;
 }
@@ -80,5 +80,10 @@ query Post ($id: ID!) {
   .post__header{
     margin: 15px 0;
   }
+}
+
+.post__content > a:focus,
+.post__content > p > a:focus{
+  padding: 0;
 }
 </style>
