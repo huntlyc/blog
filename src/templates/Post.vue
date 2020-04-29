@@ -23,7 +23,7 @@
     </div>
 
     <div class="post-comments">
-      <!-- Add comment widgets here -->
+      <vue-disqus shortname="huntlycameron" :identifier="$page.post.title"></vue-disqus>
     </div>
 
   </Layout>

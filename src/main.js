@@ -6,7 +6,10 @@ import '~/assets/style/style.scss'
 
 import DefaultLayout from '~/layouts/Default.vue'
 
+import VueDisqus from 'vue-disqus'
+
 export default function (Vue, { router, head, isClient }) {
+  Vue.use(VueDisqus);
 
   // Add an external CSS file
   head.link.push({
