@@ -27,7 +27,7 @@ The speech synthesis API is actually very well supported, but how "natural" it s
 
 ### Introduction to the speech regcognition and speech synthesis API
 
-We will look at getting up and running from the ground up.  We just want to dip our toe in the water so here is the simplest demo: Pumpkin the Parrot! ([https://heuristic-hawking-e8bb43.netlify.com/](https://heuristic-hawking-e8bb43.netlify.com/))
+We will look at getting up and running from the ground up.  We just want to dip our toe in the water so here is the simplest demo: Pumpkin the Parrot! ([https://heuristic-hawking-e8bb43.netlify.app/](https://heuristic-hawking-e8bb43.netlify.app/))
 
 This demo attempts to translate the user's speech and speak back what the browser thinks the user has said.
 
@@ -101,7 +101,7 @@ Before we go into the implementation details of annyang, here is a demo of an ev
 - Is pineapple a good pizza topping?
 - What's your favourite [Pizza/Ice Cream/Drink]
 
-You can view the demo here: [https://heuristic-hawking-e8bb43.netlify.com/annyang.html](https://heuristic-hawking-e8bb43.netlify.com/annyang.html)
+You can view the demo here: [https://heuristic-hawking-e8bb43.netlify.app/annyang.html](https://heuristic-hawking-e8bb43.netlify.app/annyang.html)
 
 ### Annyang Basics
 
@@ -177,7 +177,7 @@ The flow for this would be:
 
 Same as previous demo but you need to trigger Pumpkin the Parrot by saying "Pumpkin".
 
-Demo: [https://heuristic-hawking-e8bb43.netlify.com/annyang-trigger.html](https://heuristic-hawking-e8bb43.netlify.com/annyang-trigger.html)
+Demo: [https://heuristic-hawking-e8bb43.netlify.app/annyang-trigger.html](https://heuristic-hawking-e8bb43.netlify.app/annyang-trigger.html)
 
 ### Trigger Flow
 
