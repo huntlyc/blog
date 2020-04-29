@@ -28,7 +28,30 @@ module.exports = {
           }
         }
       }
-    }
+    },
+    {
+      use: "gridsome-plugin-service-worker",
+      options: {
+        networkFirst: {
+          cacheName: "hc-v1",
+          routes: [
+            "/",
+            /\.(js|css|png)$/, // means "every JS, CSS, and PNG images"
+          ],
+        },
+      },
+    },
+    {
+      use: "gridsome-plugin-manifest",
+      options: {
+          background_color: "#4C566A",
+          icon_path: "./src/assets/img/icon.png",
+          name: "Huntly Cameron",
+          short_name: "Blog",
+          theme_color: "#4C566A",
+          lang: "en",
+      },
+    },
   ],
   transformers: {
     remark: {
