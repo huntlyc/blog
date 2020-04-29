@@ -45,7 +45,7 @@ module.exports = {
       use: "gridsome-plugin-manifest",
       options: {
           background_color: "#4C566A",
-          icon_path: "./src/assets/img/icon.png",
+          icon_path: "./src/assets/icon.png",
           name: "Huntly Cameron",
           short_name: "Blog",
           theme_color: "#4C566A",

@@ -8,6 +8,6 @@ export default [
   },
   {
     run: plugin_gridsome_plugin_manifest_7,
-    options: {"background_color":"#4C566A","icon_path":"./src/assets/img/icon.png","name":"Huntly Cameron","short_name":"Blog","theme_color":"#4C566A","lang":"en","display":"minimal-ui","file_name":"manifest.json","orientation":"any","scope":"/","start_url":"/","dir":"auto","prefer_related_applications":false,"related_applications":[]}
+    options: {"background_color":"#4C566A","icon_path":"./src/assets/icon.png","name":"Huntly Cameron","short_name":"Blog","theme_color":"#4C566A","lang":"en","display":"minimal-ui","file_name":"manifest.json","orientation":"any","scope":"/","start_url":"/","dir":"auto","prefer_related_applications":false,"related_applications":[]}
   }
 ]
