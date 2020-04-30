@@ -7,9 +7,9 @@
           <li>
             <g-link class="nav__link" to="/">Latest Posts</g-link>
           </li>
-          <!-- <li>
+          <li>
             <g-link class="nav__link" to="/about/">About</g-link>
-          </li> -->
+          </li>
         </ul>
       </nav>
     </header>
@@ -19,7 +19,7 @@
       </main>
     </transition>
     <footer>
-      &copy; 2020 &ndash; Huntly Cameron |
+      &copy; 2020 &ndash; Huntly Cameron<br/>
       <a href="https://creativecommons.org/licenses/by/4.0/">Content on CC 4.0 License</a>
     </footer>
   </div>

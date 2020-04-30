@@ -13,6 +13,11 @@
     --focus-padding: 10px;
 }
 
+.underline{
+    padding-bottom: 0.4em;
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid #434C5E;
+}
 * {
     margin: 0;
     padding: 0;
@@ -44,9 +49,30 @@ body {
 // generics
 
 @mixin meta {
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     font-size: 0.8em;
+    color: transparentize(#fff, 0.3)
 }
+
+
+del{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: rgba(255,255,255,0.4);
+    &:after{
+        content: '';
+        position: absolute;
+        text-decoration: none;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255,255,255,0.2);
+        top: 50%;
+        left: 0;
+    }
+}
+
+
 
 a.btn{
 
@@ -114,14 +140,36 @@ h6 a[aria-hidden]:focus{
     margin-right: 15px;
 }
 
+h1{
+    font-size: 1.7em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+h4{
+    font-size: 1.1em;
+}
+
+h5{
+    font-size: 1em;
+}
+
+
 
 p{
-    line-height: 1.5;
+    line-height: 1.4;
     margin-bottom: 30px;
 }
 
 ul,
-ol{
+ol,
+dl{
     padding-left: 40px;
     margin-bottom: 30px;
 }
@@ -136,6 +184,18 @@ ul.inline{
             padding: 0;
         }
     }
+}
+
+dl{
+    padding-left: 25px;
+}
+dt{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+dd{
+    margin-bottom: 40px;
 }
 
 pre{
@@ -210,8 +270,12 @@ footer{
 .post-card{
     display: flex;
     flex-direction: column;
+    margin: 100px 0;
 
-    margin: 60px 0;
+    &:first-child{
+        margin-top: 20px;
+    }
+
     &__title{
         a{
             padding: 0 var(--focus-padding);
@@ -225,7 +289,7 @@ footer{
     }
 
     &__description{
-
+        margin: 30px 0 50px 0;
     }
 
 }
