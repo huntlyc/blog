@@ -14,6 +14,7 @@
     "vue-disqus": "^3.0.5"
   },
   "devDependencies": {
+    "@noxify/gridsome-plugin-remark-embed": "https://github.com/noxify/gridsome-plugin-remark-embed",
     "gridsome-plugin-manifest": "^0.3.4",
     "gridsome-plugin-service-worker": "^0.1.4",
     "node-sass": "^4.13.1",

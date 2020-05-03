@@ -2,7 +2,7 @@
 title: Garden Hacking - Plant Monitor
 slug: garden-hacking-plant-monitor
 date: 2018-01-11
-published: false
+published: true
 canonical_url: false
 tags: ['Javascript', 'Alexa', 'IoT']
 description: Got some plants to take care of? A spare microcontroller? Spare resources on a server?  An Amazon Echo? Well, step right up, this guide is for you!
@@ -11,25 +11,11 @@ cover_image: ../cover_images/garden.jpg
 
 A couple of years ago I received a "chili in a can" as a bit of a joke gift and I didn't take it too seriously, but never-the-less I followed the instructions and actually managed to grow a good few chili plants in the harsh and unforgiving environment that is my house.
 
-> [
->
->  View this post on Instagram
->
-> ](https://www.instagram.com/p/BEGU4uTDhsJ/?utm_source=ig_embed&amp;utm_medium=loading)
-> [I am no Mark Whatney, however, I&#39;m deliriously happy about managing to bring a chilli plant into the harsh and unforgiving environment that is my living room! #chili #gardening](https://www.instagram.com/p/BEGU4uTDhsJ/?utm_source=ig_embed&amp;utm_medium=loading)
->
-> A post shared by [ Huntly Cameron](https://www.instagram.com/huntlycameron/?utm_source=ig_embed&amp;utm_medium=loading) (@huntlycameron) on Apr 12, 2016 at 4:39am PDT
+https://www.instagram.com/p/BEGU4uTDhsJ/
 
 At the time I was teaching myself how to cook properly and so driven on by the success of the chili plants I started growing my own herbs as well and all was well with the world.
 
-> [
->
->  View this post on Instagram
->
-> ](https://www.instagram.com/p/BIccDEwAYMM/?utm_source=ig_embed&amp;utm_medium=loading)
-> [Told Onion that she had better clean up her herb garden as it&#39;s becoming a bit of a jungle #herb #jungle #gardening #cat #catsofinstgram #catstagram](https://www.instagram.com/p/BIccDEwAYMM/?utm_source=ig_embed&amp;utm_medium=loading)
->
-> A post shared by [ Huntly Cameron](https://www.instagram.com/huntlycameron/?utm_source=ig_embed&amp;utm_medium=loading) (@huntlycameron) on Jul 29, 2016 at 4:51am PDT
+https://www.instagram.com/p/BIccDEwAYMM/
 
 Fast forward to now. It's January. It's cold. I'm cold. The cat is cold, and my permafrosted car has a small family of penguins who've made themselves at home in the boot.   Whilst it is cold, and the days are still short, it is also the recommended time to plant chili seeds for the year - especially the hotter varieties.
 
@@ -37,14 +23,7 @@ I've never done early planting and I'm worried about the heat (or lack thereof) 
 
 What's a geek to do with all this worry? Well, that's easy - create an over-the-top monitoring solution of course!
 
-> [
->
->  View this post on Instagram
->
-> ](https://www.instagram.com/p/BeK6qDjg2U5/?utm_source=ig_embed&amp;utm_medium=loading)
-> [This year&#39;s first batch of chili plants seem off to a good start 🌶️🌱👍 And yes, they&#39;re hooked up to the internet for no reason other than just because I can 😁 #chilli #urbangarden #espruino #javascript #programming #iot](https://www.instagram.com/p/BeK6qDjg2U5/?utm_source=ig_embed&amp;utm_medium=loading)
->
-> A post shared by [ Huntly Cameron](https://www.instagram.com/huntlycameron/?utm_source=ig_embed&amp;utm_medium=loading) (@huntlycameron) on Jan 20, 2018 at 4:03am PST
+https://www.instagram.com/p/BeK6qDjg2U5/
 
 I've gone through a few iterations of this, and will likely go through a few more iterations before I'm happy. So far the iterations are:
 
