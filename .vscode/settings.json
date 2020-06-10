@@ -8,5 +8,8 @@
         "latex",
         "plaintext",
         "vue"
+    ],
+    "cSpell.ignoreWords": [
+        "huntly"
     ]
 }
