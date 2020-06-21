@@ -61,7 +61,7 @@ module.exports = {
       plugins: [
         '@gridsome/remark-prismjs',
         [ '@noxify/gridsome-plugin-remark-embed', {
-          'enabledProviders' : ['Instagram']
+          // 'enabledProviders' : ['Instagram']
       }]
       ]
     }

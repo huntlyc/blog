@@ -19,10 +19,10 @@ export default function (Vue, { router, head, isClient }) {
 
 
   // Add an external Javascript before the closing </body> tag
-  head.script.push({
-    src: '//www.instagram.com/embed.js',
-    body: true
-  })
+  // head.script.push({
+  //   src: '//www.instagram.com/embed.js',
+  //   body: true
+  // })
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
