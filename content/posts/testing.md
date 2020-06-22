@@ -5,17 +5,17 @@ date: 2020-06-21
 published: true
 canonical_url: false
 tags: ['Testing', 'Javascript', 'React', 'Create React App']
-description: Stop manually testing your apps and get the computer to do the hard work for you!
+description: Stop manually testing your apps every time you make a change and get the computer to do the hard work for you!
 cover_image: ../cover_images/test-full.jpg
 ---
 
 # Testing your code
 
-There are a great many articles, books, test-driven development (TDD) evangelists  that will argue the case for why you should have an automated test suite. This is not another one of those articles.  
+There are a great many articles, books, and test-driven development evangelists who will argue the case for why you should have an automated test suite. This is not another one of those articles.  
 
 This is _my_ practical journey into automated testing as part of a Covid-19 lockdown project to try out [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) with [React](https://reactjs.org/).
 
-This is not a blog post on why you should use TypeScript either. Like automated testing, there are a great many articles that explain the benefits far better than I could.
+This is not a blog post on why you should use TypeScript either. As witr automated testing, there are a great many articles that explain the benefits of using TypeScript far better than I could.
 
 ## Well, maybe a little preaching...
 I'll keep it short. 
@@ -26,17 +26,17 @@ I'll keep it short.
  - Because TypeScript is statically  typed and has things like interfaces and custom types, it allows us to (hopefully) build more robust, and agile applications.
 
 ### Why automated testing?
-For me, the way I tend to code is to laser focus in on what I'm doing to the point of not fully checking all aspects whilst I'm hacking up a portion of the codebase.  With an automated test suite, I can be _fairly confident_ that I've not severely  _fubar_ some other part of the codebase when making changes.  
+For me, the way I tend to code is to laser focus in on what I'm doing to the point of not fully checking all other aspects of a project while I'm hacking up a portion of the codebase.  With an automated test suite, I can be _fairly confident_ that I've not severely broken some other part of the codebase when making changes.  
 
-I also try to refactor my code when I've got something working so that my future self in 6-12 months will not hate my current self too much.  With an automated test suite, you can be _fairly confident_ that your refactorings have been a force for good and have not introduced any bugs. 
+I also try to clean up and refactor my code when I've got something working so that my future self in 6 to 12 months will not hate my current self too much.  With an automated test suite, you can be _fairly confident_ that your refactorings have been a force for good and have not introduced any new bugs. 
 
-I want to point out the use of _"fairly confident"_ above; automated testing does **not** mean that you just fire-and-forget code so long as your tests pass. Have a quick test yourself once in a while - test your tests!
+I want to point out the use of _"fairly confident"_ above. Automated testing does **not** mean that you just fire-and-forget code so long as your tests pass. Have a quick test yourself once in a while - test your tests!
 
-Testing allows me to keep on trucking knowing that I'm probably on the right route and not drifting into oncoming traffic while I fiddle about with the radio.
+Testing has allowed me to keep on trucking knowing that I'm probably on the right route and not drifting into oncoming traffic while I fiddle about with the radio.
 
 ## Setup
 
-If you're using [Create React App](https://create-react-app.dev/) then you've already got an out-of-the-box testing solution with [Jest](https://jestjs.io/).  With create react app, you'll already have an App.test.{jsx,tsx} file already there with a single test to ensure that your application will render without failing.
+If you're using [Create React App](https://create-react-app.dev/) then you've already got out-of-the-box testing with [Jest](https://jestjs.io/).  With the basic skeleton project setup you'll already have a file called App.test.{jsx,tsx}, depending if you're using TypeScript, which will contain a single test to ensure that your application will render without failing.
 
 To run your tests, depending on your package manager of choice, you need to run:
 
@@ -50,7 +50,14 @@ or
 npm test
 ```
  
-You should get a passing test (if your application isn't already bugging out).  If not, time to sharpen up those googling skills!
+You should get a passing test (if your application isn't already bugging out). 
+
+```text
+ PASS  src/App.test.tsx
+  ✓ it renders without crashing (148ms)
+```
+
+If you do not see the above then it's time to sharpen up those googling skills!
 
 ## OK, cool-cool. Now what?
 Good question.  That's not easy.  Some people will say that you should test every line of code in your project and gain 100% code coverage. While others say test what matters most - in other words, test the complicated bits.
@@ -58,14 +65,16 @@ Good question.  That's not easy.  Some people will say that you should test ever
 For now, I'm testing the more nuanced pieces of my project as they're most likely to cause problems. 100% coverage is the end goal though.
 
 ## Testing lingo
+To help yourself when diving into tutorials or looking for things, you'll be better served if you speak the language of testing.
+
 You write unit tests. A unit test is a test that tests a unit - of code.
 
 In other words, if you have a function, you write a test for that function.  With Jest, we can also create groups of unit tests.  A bunch of single, or grouped, unit tests forms a test suite.  A test runner then runs all test suites. 
 
 ## General project structure 
-You'll generally have a test file that tests against a code file.  That test file is the test suite for the code file being tested.  
+You'll likely have one test file per code file.  That test file is the test suite for that code file. 
 
-In the test file, you'll generally have one or more unit tests per function you want to test.
+In the test file, you'll have one or more unit tests per function you want to test.
 
 In the unit test, you'll have some assertions to make sure the code is behaving as predicted. For example, the "Hello, World!" of testing:
 
@@ -80,21 +89,24 @@ test('its not 1984', () => {
 });
 ```
 
-These lines beginning with `expect` are assertions. We `expect(ourCode).toMatch(ourPrediction)`
+These lines beginning with `expect` are assertions. An assertion is saying we expect that the code under test will produce what we think it should.
 
-An assertion is saying we expect that your code under test will produce what we think it should.
+```javascript
+expect(ourCode).toMatch(ourPrediction)
+```
+
 
 If those assertions pass, the unit test passes. If all the unit tests pass, the test suite passes and you can call it a day and clock off ear... I mean, refactor your code some more. 
 
 Check out the [jest documentation](https://jestjs.io/docs/en/using-matchers) for more assertion matchers.
 
-## Other testing
+## Other testing practices
 We're going to cover unit tests in this and the next blog post.  You can also get end to end tests, integration tests, and acceptance testing.  
 
 ## Baby steps
-The first thing I did was to take a small custom date module that is responsible for printing human-friendly dates on my app and started to write tests for that as it seemed easiest to get going with.  
+The first thing I did was to take a small custom date module that is responsible for printing human-friendly dates on my app and started to write tests for that as it seemed easiest to get going with.  We'll cover testing React components in the next post.
 
-For example, I have a function that takes a date in `yyyy/mm/dd hh:mm:ss` format and returns an object with the component parts. Here's my unit test for that:
+For example, I have a function that takes a date in `yyyy/mm/dd hh:mm:ss` formatted string and returns an object with the component parts. Here's my unit test for that:
 ```javascript
  //File: Utils.test.ts
 import {getDatePieces} from './Utils';
