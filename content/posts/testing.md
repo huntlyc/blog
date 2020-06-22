@@ -214,9 +214,31 @@ export const getDatePieces = function(dateString: string){
 That code, doesn't look so hot right?  One quick refactor later with a run of the test suite on file save:
 
 ```javascript
-export const getDatePieces = function(dateString: string){
+/**
+ * @typedef {Object} DatePiecesObject - broken down date object
+ * @property {string} d - day
+ * @property {string} m - month
+ * @property {string} y - year
+ * @property {string} h - hours (24)
+ * @property {string} m - minutes
+ */
+type DatePiecesObject = {
+  d: string;
+  m: string;
+  y: string;
+  h: string;
+  i: string;
+};
 
-    const date = new Date(Date.parse(dateString as string));
+/**
+ * Given date string, returns zero padded values in object form 
+ * 
+ * @param {string} dateString  - parsable date string
+ * @returns {DatePiecesObject} parsed date in zero-padded object
+ */
+export const getDatePieces = (dateString: string): DatePiecesObject => {
+
+    const date = new Date(Date.parse(dateString));
 
     return {
       d: `${date.getDate()}`.padStart(2, '0'),
@@ -231,4 +253,4 @@ export const getDatePieces = function(dateString: string){
   ✓ it splits a date into the right pieces (1ms)
 ```
 
-Nice. Job Done. Let's call it a day.
+Much nicer! Job Done - let's call it a day.
