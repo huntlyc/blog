@@ -220,7 +220,7 @@ That code, doesn't look so hot right?  One quick refactor later with a run of th
  * @property {string} m - month
  * @property {string} y - year
  * @property {string} h - hours (24)
- * @property {string} m - minutes
+ * @property {string} i - minutes
  */
 type DatePiecesObject = {
   d: string;
