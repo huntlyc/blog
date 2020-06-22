@@ -15,7 +15,7 @@ There are a great many articles, books, and test-driven development evangelists 
 
 This is _my_ practical journey into automated testing as part of a Covid-19 lockdown project to try out [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) with [React](https://reactjs.org/).
 
-This is not a blog post on why you should use TypeScript either. As witr automated testing, there are a great many articles that explain the benefits of using TypeScript far better than I could.
+This is not a blog post on why you should use TypeScript either. As with automated testing, there are a great many articles that explain the benefits of using TypeScript far better than I could.
 
 ## Well, maybe a little preaching...
 I'll keep it short. 
