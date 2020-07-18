@@ -4,7 +4,7 @@ slug: testing-react-frontends
 description: You've tested your functions, you've tested your components now lets
   put it all together
 canonical_url: false
-date: 2020-07-17T23:00:00Z
+date: 2020-07-18T11:00:00Z
 published: true
 tags:
 - Create React App
