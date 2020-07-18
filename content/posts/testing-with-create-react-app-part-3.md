@@ -56,7 +56,7 @@ context('App Flow', () => {
         });
       
         it('Should show registration from when registration is selected', () => {
-            // Two examples of matching text
+            // Two examples of matching text...
           	// direct match
             cy.get('nav a[aria-current="page"]')
                 .should('have.text', 'Register');
