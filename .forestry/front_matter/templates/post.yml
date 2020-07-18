@@ -26,3 +26,5 @@ fields:
 - type: file
   name: cover_image
   label: cover_image
+pages:
+- content/posts/testing-with-create-react-app-part-3.md
