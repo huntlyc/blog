@@ -5,7 +5,7 @@ description: You've tested your functions, you've tested your components now let
   put it all together
 canonical_url: false
 date: 2020-07-17T23:00:00Z
-published: false
+published: true
 tags:
 - Create React App
 - React
