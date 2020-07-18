@@ -16,7 +16,7 @@ cover_image: "/cypress.jpg"
 ---
 ## Previous entries
 
-If you haven't already, might be worth a look at part 1 - testing 101, and part 2 - testing React components of this series before continuing.
+If you haven't already, might be worth a look at [part 1 - testing 101](/testing-js/), and [part 2 - testing React components](/testing-react-components/) of this series before continuing.
 
 ## The final piece of the puzzle
 
@@ -83,7 +83,7 @@ Hopefully from this example you can see that it's really easy to get up and runn
 
 ## Overlapping tests
 
-You might be wondering why you would probably end up testing for things that your unit tests already catch?  The simple reason is that, yes on their own, they behave as expected but they should continue to behave as expected when run as part of the full app.  
+You might be wondering why you would probably end up testing for things that your unit tests already catch?  The simple reason is that, yes on their own, they behave as expected but they should continue to behave as expected when run as part of the full app.
 
 Again, just to reiterate, this is what your user will see; you want to make sure that the user sees what you want them to see!
 
