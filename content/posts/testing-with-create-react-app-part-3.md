@@ -24,9 +24,9 @@ In the previous two posts we've tested functions, and then React components in i
 
 ## End-to-end testing with Cypress.io
 
-We want to be able to test our application in the exact same way that the user will use it - through the browser.  We want to be able to click on things, type things into inputs as our user would and ensure that everything works.  There are a few options for doing this but one of the more popular ones is [Cypress.io](https://cypress.io "Cypress.io") 
+We want to be able to test our application in the exact same way that the user will use it - through the browser.  We want to be able to click on things, type things into inputs as our user would and ensure that everything works.  There are a few options for doing this but one of the more popular ones is [Cypress.io](https://cypress.io "Cypress.io")
 
-We write our tests in plain old Javascript and they look exactly like a mashup of jest and react-testing-library which is good for us and allows us to concentrate on writing tests.
+We write our tests in plain old JavaScript and they look exactly like a mashup of jest and react-testing-library which is good for us and allows us to concentrate on writing tests.
 
 The tests get run in a browser that Cypress.io has full control over and the great thing about Cypress.io is that if a test fails (or even if it passes) we can look through each step of the test and see what the user would see!
 
@@ -34,7 +34,10 @@ The tests get run in a browser that Cypress.io has full control over and the gre
 
 For setup for your particular system see the [official setup guide](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements)
 
+Just as a point of note, I was unable to get this working correctly with the GUI under the Linux subsystem on Windows 10.
+
 ## Example test case
+
 ```javascript
 // Test file wrapper
 context('App Flow', () => {
@@ -76,4 +79,14 @@ context('App Flow', () => {
 });
 ```
 
+Hopefully from this example you can see that it's really easy to get up and running with Cypress.io!
+
+## Overlapping tests
+
+You might be wondering why you would probably end up testing for things that your unit tests already catch?  The simple reason is that, yes on their own, they behave as expected but they should continue to behave as expected when run as part of the full app.  
+
+Again, just to reiterate, this is what your user will see; you want to make sure that the user sees what you want them to see!
+
 ## Conclusions
+
+Hopefully from the last few posts you've been tempted to at least try out writing some tests.  I'm not exactly test-driven (yet) but I've appreciated the value of the tests especially for refactoring chunks of the code base and ensuring that the refactors have not caused issues.
