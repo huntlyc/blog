@@ -11,7 +11,7 @@ tags:
 - React
 - JavaScript
 - Testing
-cover_image: "/cypress.jpg"
+cover_image: ../cover_images/cypress.jpg
 
 ---
 ## Previous entries
