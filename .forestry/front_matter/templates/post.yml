@@ -1,0 +1,28 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: published
+  label: published
+- type: boolean
+  name: canonical_url
+  label: canonical_url
+- type: list
+  name: tags
+  label: tags
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: cover_image
+  label: cover_image
