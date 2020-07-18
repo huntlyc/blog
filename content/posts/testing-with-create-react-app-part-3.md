@@ -11,6 +11,29 @@ tags:
 - React
 - JavaScript
 - Testing
-cover_image: ''
+cover_image: "/assets/static/cypress.jpg"
 
 ---
+## Previous entries
+
+If you haven't already, might be worth a look at part 1 - testing 101, and part 2 - testing React components of this series before continuing.
+
+## The final piece of the puzzle
+
+...
+
+## End-to-end testing with Cypress.io
+
+...blurb about cypres
+
+## Setup
+
+...
+
+## Example test case
+
+...
+
+## Conclusions
+
+...
