@@ -7,17 +7,17 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/remark-prismjs": "^0.3.0",
+    "@gridsome/remark-prismjs": "^0.4.0",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.0",
-    "gridsome": "^0.7.17",
+    "@gridsome/transformer-remark": "^0.6.3",
+    "gridsome": "^0.7.21",
     "vue-disqus": "^4.0.0"
   },
   "devDependencies": {
     "@noxify/gridsome-plugin-remark-embed": "https://github.com/noxify/gridsome-plugin-remark-embed",
     "gridsome-plugin-manifest": "^0.3.5",
-    "gridsome-plugin-service-worker": "^0.1.5",
+    "gridsome-plugin-service-worker": "^0.2.6",
     "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.0.3"
   }
 }
