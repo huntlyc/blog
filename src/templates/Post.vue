@@ -22,10 +22,6 @@
       </div>
     </div>
 
-    <div class="post-comments">
-      <vue-disqus shortname="huntlycameron" :identifier="$page.post.title"></vue-disqus>
-    </div>
-
   </Layout>
 </template>
 
