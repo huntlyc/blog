@@ -6,7 +6,7 @@ published: true
 canonical_url: false
 tags: ['Testing', 'Javascript', 'React', 'Create React App']
 description: You've decided that automated testing is a good idea, but how are you supposed to test a react component?!
-cover_image: ../cover_images/component-test-cover.jpg
+cover_image: /assets/img/uploads/cover_images/component-test-cover.jpg
 ---
 
 # Testing 101

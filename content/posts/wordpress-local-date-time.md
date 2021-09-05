@@ -6,7 +6,7 @@ published: true
 canonical_url: false
 tags: ['WordPress', 'PHP']
 description: If you get hosting from a provider half way around the world, you'll find that their server time may not be the same as your local time.  You've got a few options...
-cover_image: ../cover_images/wp-time.jpg
+cover_image: /assets/img/uploads/cover_images/wp-time.jpg
 ---
 
 If you get hosting from a provider half way around the world, you'll find that their server time may not be the same as your local time.  You've got a few options:
