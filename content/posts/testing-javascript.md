@@ -6,7 +6,7 @@ published: true
 canonical_url: false
 tags: ['Testing', 'Javascript', 'React', 'Create React App']
 description: Stop manually testing your apps every time you make a change and get the computer to do the hard work for you!
-cover_image: /assets/img/uploads/cover_images/test-full.jpg
+cover_image: /assets/img/uploads/test-full.jpg
 ---
 
 # Testing your code

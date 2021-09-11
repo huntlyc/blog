@@ -6,7 +6,7 @@ published: true
 canonical_url: false
 tags: ['Javascript', 'VUI', 'Getting Started']
 description: Voice assistants are everywhere these days, except the web.  Lets look at how we can start to bring this technology online.
-cover_image: /assets/img/uploads/cover_images/vui.jpg
+cover_image: /assets/img/uploads/vui.jpg
 ---
 
 Voice User Interfaces (VUI) are popping up just about everywhere these days.  From virtual assistants on your mobile phones, to virtual assistants via smart speakers in your home, to even having virtual assistants in your car.
@@ -155,7 +155,7 @@ In the case of "What's your favourite [Pizza/Ice Cream/Drink]" we can tell annya
 
 Once the microphone permissions have been granted and annyang is started, it will continuously sit and listen for commands.  
 
-![](/assets/img/uploads/post_images/stdVUI.svg)
+![](/assets/img/uploads/stdVUI.svg)
 
 _Standard Speech Recognition Loop_
 
@@ -171,7 +171,7 @@ The flow for this would be:
 - Once triggered, add in all your additional commands
 - Once done, or no speech detected, remove these commands so we go back to only having our trigger command
 
-![](/assets/img/uploads/post_images/triggerVUI.svg)
+![](/assets/img/uploads/triggerVUI.svg)
 
 ### Trigger Demo
 

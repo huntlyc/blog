@@ -6,7 +6,7 @@ published: true
 canonical_url: false
 tags: ['Javascript', 'Alexa', 'IoT']
 description: Got some plants to take care of? A spare microcontroller? Spare resources on a server?  An Amazon Echo? Well, step right up, this guide is for you!
-cover_image: /assets/img/uploads/cover_images/garden.jpg
+cover_image: /assets/img/uploads/garden.jpg
 ---
 
 A couple of years ago I received a "chili in a can" as a bit of a joke gift and I didn't take it too seriously, but never-the-less I followed the instructions and actually managed to grow a good few chili plants in the harsh and unforgiving environment that is my house.

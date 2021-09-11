@@ -6,7 +6,7 @@ published: true
 canonical_url: false
 tags: ['Javascript']
 description: Sorting is as easy as 1,2,3... yeah... I know....
-cover_image: /assets/img/uploads/cover_images/sort.jpg
+cover_image: /assets/img/uploads/sort.jpg
 ---
 
 If you have a list of objects like so:

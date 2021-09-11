@@ -6,7 +6,7 @@ tags: ['Docker', 'WordPress']
 published: true
 canonical_url: false
 description: Super quick guide to getting the official WordPress Docker image running with HTTPS without the need for an additional image for HTTPS proxy. The guide assumes that you know the basics of docker and just want to get an https version of WordPress going.
-cover_image: /assets/img/uploads/cover_images/docker.jpg
+cover_image: /assets/img/uploads/docker.jpg
 ---
 
 Super quick guide to getting the official WordPress Docker image running with HTTPS without the need for an additional image for HTTPS proxy. The guide assumes that you know the basics of docker and just want to get an https version of WordPress going.
