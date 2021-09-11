@@ -22,4 +22,4 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Published", name: "published", widget: "boolean", default: true}
       - {label: "Featured Image", name: "cover_image", widget: "image"}
-      - {label: "Tags", name: "tags", widget: "lists"}
+      - {label: "Tags", name: "tags", widget: "list"}
